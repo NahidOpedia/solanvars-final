@@ -1265,14 +1265,14 @@ body {
 
 
 @media screen and (max-width: 991px) {
-  .app__section .item1 .app img {
-    height: 135px;
+  .app__section{
+    display: none;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .app__section .item1 .app img {
-    height: 107px;
+  .app__section {
+    display: none;
   }
 
   .app__section .item1 p {

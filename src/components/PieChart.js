@@ -38,7 +38,7 @@ const ChartGraph = () => {
         <div className="chartText-list d-lg-none ">
           <h3>40% liquidity pool</h3>
           <h3>30% staking</h3>
-          <h3>15% development</h3>
+          <h3>20% development</h3>
           <h3>10% nft $ game</h3>
         </div>
       </div>

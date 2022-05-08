@@ -15,7 +15,7 @@ import i6 from '../assets/images/logo/i6.png';
 
 
 const Header = () => {
-    const [toggle , setToggle ] = useState(false)
+    const [toggle, setToggle] = useState(false)
     useEffect(() => {
         AOS.init();
     }, [])
@@ -26,12 +26,12 @@ const Header = () => {
                     <div className="mobile_logo">
                         <img src={MobileLogo} alt="logo" />
                     </div>
-                    <div className="bars" style={{cursor:'pointer'}} onClick={()=>setToggle(!toggle)}>
+                    <div className="bars" style={{ cursor: 'pointer' }} onClick={() => setToggle(!toggle)}>
                         <span></span>
                         <span></span>
                     </div>
                 </div>
-                <div className= {`mobile_nenu ${toggle && 'open'}`} >
+                <div className={`mobile_nenu ${toggle && 'open'}`} >
                     <div className="hero_top_left">
                         <div className="menu">
                             <ul>
@@ -39,7 +39,7 @@ const Header = () => {
                                     <a href="http://solan-nftmint.com/">nft mINT</a>
                                 </li>
                                 <li>
-                                     <a href="http://staking.solan-verse.io/">Staking</a>
+                                    <a href="http://staking.solan-verse.io/">Staking</a>
                                 </li>
                                 <li>
                                     <a href="http://solan-dapp.com/">DAPP</a>
@@ -144,7 +144,7 @@ const Header = () => {
                             <p data-aos="fade-up" className='mt-3' data-aos-duration="3000">A team of professionals, changing the crypto space through hard work, ingenuity and trust.</p>
                             <div className="button_group">
                                 <a className="btnone" data-aos="fade-up" data-aos-duration="3000" href="#"><img src={i5} alt="" />Buy On Pancakeswap</a>
-                                <a className="btntwo" data-aos="fade-up" data-aos-duration="3000" href="#"><img src={i6} alt="" />Whitepaper</a>
+                                <a className="btntwo" data-aos="fade-up" data-aos-duration="3000" target="_blank" href="https://drive.google.com/file/d/1aIpcSAp3zAvhwC1wjTXb2s9BdpHuuEyG/view?usp=sharing"><img src={i6} alt="" />Whitepaper</a>
                             </div>
                         </div>
                     </div>
